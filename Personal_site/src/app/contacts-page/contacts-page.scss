@@ -1,0 +1,24 @@
+p{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+};
+
+.card{
+    border-block-color:red ;
+    overflow: hidden;
+    width: 20%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    background-color: rgb(88, 255, 55);
+}
+
+.icons{
+
+    font-size: 30px;
+}
+
+h5{
+    font-size: 40px;
+    color: white;
+}
