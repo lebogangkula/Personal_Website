@@ -1,3 +1,10 @@
 .link:hover{
     color: rgb(255, 255, 255);
 }
+.navbar .nav-link a
+ { color: #ff3d3d; 
+     margin-top: 5px; 
+     font-weight: 500; 
+     font-size: 30px;
+     transition: all 0.3s ease;
+      /* smooth hover effect */ } .navbar .nav-link:hover { color: #00aced; /* change text color on hover */ text-decoration: underline; /* add underline */ }
