@@ -1,0 +1,17 @@
+ .card{
+    background-color: rgb(58, 255, 206);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-body:hover { 
+    transform: translateX(-10px); 
+     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+    
+p{
+    color: white;
+    font-size: 16px;
+}
+h1{
+    color: rgb(21, 231, 21);
+}
