@@ -16,6 +16,10 @@ export const routes: Routes = [
     component: AboutPage
 },
 {
+    path: '**',
+    redirectTo:'home'
+},
+{
     path: 'skills',
     component: SkillsPage
 },
