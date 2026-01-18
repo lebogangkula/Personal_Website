@@ -32,7 +32,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],"baseHref": "/personal_website/"
           },
           "configurations": {
             "production": {
