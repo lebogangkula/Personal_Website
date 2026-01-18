@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "browser": "src/main.ts",
+            "outputPath":"docs/Personal_site/browser",
+            "index":"src/index.html",
             "polyfills": [
               "zone.js"
             ],
@@ -31,7 +32,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],"baseHref": "/personal_website/"
           },
           "configurations": {
             "production": {
