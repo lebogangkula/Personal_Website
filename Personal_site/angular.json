@@ -17,12 +17,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath":"/dist/Personal_site/browser/",
+            "outputPath":"dist/Personal_site/browser",
             "index":"src/index.html",
-            "main":"src/main.ts",
-            "polyfills":"src/polyfills.ts",
-            "tsconfig":"Personal_site/tsconfig.app.json",
-            "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
