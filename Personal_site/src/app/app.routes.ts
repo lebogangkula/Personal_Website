@@ -12,16 +12,8 @@ export const routes: Routes = [
     component: HomePage
 },
 {
-    path: '**',
-    redirectTo:'home'
-},
-{
     path: 'about',
     component: AboutPage
-},
-{
-    path: '**',
-    redirectTo:'home'
 },
 {
     path: 'skills',
@@ -34,5 +26,15 @@ export const routes: Routes = [
 {
     path: 'contacts',
     component: ContactsPage
+},
+{
+    path: '**',
+    redirectTo:'home',
+    pathMatch:"full"
+},
+{
+    path: '',
+    redirectTo:'home',
+    pathMatch:"full"
 }
 ];

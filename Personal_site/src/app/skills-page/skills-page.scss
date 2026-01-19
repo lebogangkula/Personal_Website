@@ -4,7 +4,8 @@ h2{
 .card{
     border-block-color:red ;
     height: 420px;
-    background-color: rgb(58, 255, 206);
+    background-color: rgb(61, 189, 61);
+    
 
     width: 40%; 
     border-radius: 10px; 
@@ -13,6 +14,8 @@ h2{
 }
 .card:hover { transform: translateY(-10px); 
      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+     background-color: rgb(32, 196, 155);
+     color: black;
     }
 .container{
     background-color: rgb(128, 115, 115);
